@@ -1,0 +1,59 @@
+.header {
+    background-color: #101010;
+    color: white;
+    padding: 20px 0;
+}
+
+.inner-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+    text-decoration: none;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.content img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 25px;
+}
